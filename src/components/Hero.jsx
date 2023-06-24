@@ -12,12 +12,14 @@ const Hero = () => {
   return (
     <Box
       w={"full"}
-      h={"600px"}
+      h={"500px"}
       backgroundImage={"url(../../images/bg.png)"}
       backgroundRepeat={"no-repeat"}
+      backgroundColor={"#000"}
       backgroundSize={"cover"}
+      backgroundPosition={"center center"}
     >
-      <Container maxW={"container.xl"}>
+      <Container maxW={"container.lg"}>
         <Box pt={"100px"}>
           <Flex justify={"space-between"} align={"center"} w={"500px"}>
             <Text
@@ -84,6 +86,73 @@ const Hero = () => {
                 Ismoil Mahmudjonovdan <br />
                 <span style={{ fontWeight: "bold" }}> Bepul Master-Klass</span>
               </Text>
+            </Box>
+          </Flex>
+        </Box>
+
+        <Box mt={"150px"}>
+          <Flex align={"flex-end"} justify={"space-between"}>
+            <Box>
+              <Heading
+                color={"#63CDF6"}
+                fontSize={"24px"}
+                lineHeight={"27px"}
+                fontWeight={"700"}
+                mb={3}
+              >
+                3 kunlik Master-Klassda siz:
+              </Heading>
+              <Flex align={"center"} gap={2} mb={2}>
+                <Image src="../../images/pocket.png" />
+                <Text
+                  fontSize={"24px"}
+                  lineHeight={"27px"}
+                  fontWeight={"300"}
+                  color={"#fff"}
+                >
+                  Grafik dizayn qanday sohaligini tushunib olasiz;
+                </Text>
+              </Flex>
+              <Flex align={"center"} gap={2} mb={2}>
+                <Image src="../../images/pocket.png" />
+                <Text
+                  fontSize={"24px"}
+                  lineHeight={"27px"}
+                  fontWeight={"300"}
+                  color={"#fff"}
+                >
+                  Fotoshopda ilk ishlaringizni qila olasiz;
+                </Text>
+              </Flex>
+              <Flex align={"center"} gap={2} mb={2}>
+                <Image src="../../images/pocket.png" />
+                <Text
+                  fontSize={"24px"}
+                  lineHeight={"27px"}
+                  fontWeight={"300"}
+                  color={"#fff"}
+                >
+                  Grafik dizayn orqali daromad qilish yo’llarini o’rganib
+                  olasiz.
+                </Text>
+              </Flex>
+            </Box>
+            <Box>
+              <Text color={"#45CCFF"} fontSize={"26px"} fontWeight={"700"}>
+                <span
+                  style={{
+                    textDecoration: "line-through",
+                    color: "#fff",
+                    fontWeight: "300",
+                  }}
+                >
+                  300.000 SO'M
+                </span>
+                BEPUL
+              </Text>
+              <Button color={"#fff"} bg={"#45CCFF"} borderRadius={"30px"}>
+                ISHTIROK ETISH
+              </Button>
             </Box>
           </Flex>
         </Box>

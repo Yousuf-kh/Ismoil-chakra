@@ -2,8 +2,8 @@ import { Box, Flex, Image, Text, Container } from "@chakra-ui/react";
 
 function Navbar() {
   return (
-    <Box bg={"#0E0E18"} w={"full"} h={"10vh"}>
-      <Container maxW={"container.xl"}>
+    <Box bg={"#000"} w={"full"} h={"10vh"}>
+      <Container maxW={"container.lg"}>
         <Flex justify={"space-between"} align={"center"} h={"10vh"}>
           <Box>
             <Image src="../../images/logo.png" h={"30px"} w={"300px"} />
