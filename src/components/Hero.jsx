@@ -13,7 +13,7 @@ const Hero = () => {
     <Box
       w={"full"}
       h={"500px"}
-      backgroundImage={"url(../../images/bg.png)"}
+      backgroundImage={"url(/images/bg.png)"}
       backgroundRepeat={"no-repeat"}
       backgroundColor={"#000"}
       backgroundSize={"cover"}
@@ -49,7 +49,7 @@ const Hero = () => {
                 >
                   20:00
                 </Text>
-                <Image src="../../images/fi_clock.png" />
+                <Image src="/images/fi_clock.png" />
               </Flex>
               <Button bg={"#EF3833"} borderRadius={"20px"} color={"#fff"}>
                 ONLINE
@@ -74,7 +74,7 @@ const Hero = () => {
             Sohasiga Kirish
           </Heading>
           <Flex mt={5} gap={3} align={"center"}>
-            <Image src="../../images/vector.png" />
+            <Image src="/images/vector.png" />
             <Box>
               <Text
                 fontWeight={"3000"}
@@ -103,7 +103,7 @@ const Hero = () => {
                 3 kunlik Master-Klassda siz:
               </Heading>
               <Flex align={"center"} gap={2} mb={2}>
-                <Image src="../../images/pocket.png" />
+                <Image src="/images/pocket.png" />
                 <Text
                   fontSize={"24px"}
                   lineHeight={"27px"}
@@ -114,7 +114,7 @@ const Hero = () => {
                 </Text>
               </Flex>
               <Flex align={"center"} gap={2} mb={2}>
-                <Image src="../../images/pocket.png" />
+                <Image src="/images/pocket.png" />
                 <Text
                   fontSize={"24px"}
                   lineHeight={"27px"}
@@ -125,7 +125,7 @@ const Hero = () => {
                 </Text>
               </Flex>
               <Flex align={"center"} gap={2} mb={2}>
-                <Image src="../../images/pocket.png" />
+                <Image src="/images/pocket.png" />
                 <Text
                   fontSize={"24px"}
                   lineHeight={"27px"}

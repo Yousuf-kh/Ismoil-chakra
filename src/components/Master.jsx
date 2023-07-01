@@ -16,7 +16,7 @@ const Master = () => {
     <Box bg={"#000"} pt={"100px"}>
       <Container maxW={"container.lg"}>
         <Flex mb={5} gap={2} align={"center"}>
-          <Image src="../../images/u_presentation-check.png" />
+          <Image src="/images/u_presentation-check.png" />
           <Box w={"140px"} h={"2px"} bg={"#fff"}></Box>
           <Box w={"2px"} h={"2px"} bg={"#fff"}></Box>
           <Box w={"5px"} h={"2px"} bg={"#fff"}></Box>
@@ -49,7 +49,7 @@ const Master = () => {
         >
           {lesson.map((c) => (
             <Flex align={"center"} gap={5}>
-              <Image src="../../images/u_check-circle.png" />
+              <Image src="/images/u_check-circle.png" />
               <Text
                 color={"#fff"}
                 fontSize={"18px"}

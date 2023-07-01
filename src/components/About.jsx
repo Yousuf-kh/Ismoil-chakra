@@ -14,7 +14,7 @@ const About = () => {
     <Box bg={"#000"} w={"full"} h={"335px"} pt={"250px"}>
       <Container maxW={"container.lg"}>
         <Flex gap={2} align={"center"} mb={5}>
-          <Image src="../../images/receipt.png" />
+          <Image src="/images/receipt.png" />
           <Box w={"150px"} h={"2px"} bg={"#fff"}></Box>
           <Box w={"10px"} h={"2px"} bg={"#fff"}></Box>
           <Box w={"5px"} h={"2px"} bg={"#fff"}></Box>

@@ -6,7 +6,7 @@ function Navbar() {
       <Container maxW={"container.lg"}>
         <Flex justify={"space-between"} align={"center"} h={"10vh"}>
           <Box>
-            <Image src="../../images/logo.png" h={"30px"} w={"300px"} />
+            <Image src="/images/logo.png" h={"30px"} w={"300px"} />
           </Box>
 
           <Flex gap={2} align={"center"}>
@@ -23,7 +23,7 @@ function Navbar() {
                 +998 99 821 33 91
               </Text>
             </Box>
-            <Image w={"25px"} h={"25px"} src="../../images/fi.png" />
+            <Image w={"25px"} h={"25px"} src="/images/fi.png" />
           </Flex>
         </Flex>
       </Container>
