@@ -12,8 +12,13 @@ const Hero = () => {
   return (
     <Box
       w={"full"}
+<<<<<<< HEAD
       h={{ base: "620px", md: "500px" }}
       backgroundImage={{ base: "", md: "url(../../images/bg.png)" }}
+=======
+      h={"500px"}
+      backgroundImage={"url(/images/bg.png)"}
+>>>>>>> 8baa3c2c8f82aec4b64c99a3da941de70a124bf4
       backgroundRepeat={"no-repeat"}
       backgroundColor={"#000"}
       backgroundSize={"cover"}
@@ -53,7 +58,7 @@ const Hero = () => {
                 >
                   20:00
                 </Text>
-                <Image src="../../images/fi_clock.png" />
+                <Image src="/images/fi_clock.png" />
               </Flex>
               <Button bg={"#EF3833"} borderRadius={"20px"} color={"#fff"}>
                 ONLINE
@@ -77,8 +82,13 @@ const Hero = () => {
           >
             Sohasiga Kirish
           </Heading>
+<<<<<<< HEAD
           <Flex pt={{ base: 500, md: 5 }} gap={3} align={"center"}>
             <Image src="../../images/vector.png" />
+=======
+          <Flex mt={5} gap={3} align={"center"}>
+            <Image src="/images/vector.png" />
+>>>>>>> 8baa3c2c8f82aec4b64c99a3da941de70a124bf4
             <Box>
               <Text
                 fontWeight={"300"}
@@ -110,8 +120,13 @@ const Hero = () => {
               >
                 3 kunlik Master-Klassda siz:
               </Heading>
+<<<<<<< HEAD
               <Flex align={"center"} gap={2} mb={5}>
                 <Image src="../../images/pocket.png" />
+=======
+              <Flex align={"center"} gap={2} mb={2}>
+                <Image src="/images/pocket.png" />
+>>>>>>> 8baa3c2c8f82aec4b64c99a3da941de70a124bf4
                 <Text
                   fontSize={"24px"}
                   lineHeight={"27px"}
@@ -121,8 +136,13 @@ const Hero = () => {
                   Grafik dizayn qanday sohaligini tushunib olasiz;
                 </Text>
               </Flex>
+<<<<<<< HEAD
               <Flex align={"center"} gap={2} mb={5}>
                 <Image src="../../images/pocket.png" />
+=======
+              <Flex align={"center"} gap={2} mb={2}>
+                <Image src="/images/pocket.png" />
+>>>>>>> 8baa3c2c8f82aec4b64c99a3da941de70a124bf4
                 <Text
                   fontSize={"24px"}
                   lineHeight={"27px"}
@@ -132,8 +152,13 @@ const Hero = () => {
                   Fotoshopda ilk ishlaringizni qila olasiz;
                 </Text>
               </Flex>
+<<<<<<< HEAD
               <Flex align={"center"} gap={2} mb={5}>
                 <Image src="../../images/pocket.png" />
+=======
+              <Flex align={"center"} gap={2} mb={2}>
+                <Image src="/images/pocket.png" />
+>>>>>>> 8baa3c2c8f82aec4b64c99a3da941de70a124bf4
                 <Text
                   fontSize={"24px"}
                   lineHeight={"27px"}

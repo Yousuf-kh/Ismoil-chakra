@@ -11,7 +11,7 @@ export const about = [
         loyihalar.
       </Text>
     ),
-    icon: <Image src="../../images/u_comment-heart.png" />,
+    icon: <Image src="/images/u_comment-heart.png" />,
   },
   {
     title: (
@@ -23,7 +23,7 @@ export const about = [
         tajriba
       </Text>
     ),
-    icon: <Image src="../../images/u_comparison.png" />,
+    icon: <Image src="/images/u_comparison.png" />,
   },
   {
     title: (
@@ -35,7 +35,7 @@ export const about = [
         lar muallifi
       </Text>
     ),
-    icon: <Image src="../../images/fi_edit-3.png" />,
+    icon: <Image src="/images/fi_edit-3.png" />,
   },
 ];
 
@@ -77,18 +77,18 @@ export const responsive = {
 };
 
 export const portfolioFirst = [
-  { image: <Image src="../../images/1.jpg" /> },
-  { image: <Image src="../../images/2.jpg" /> },
-  { image: <Image src="../../images/3.jpg" /> },
-  { image: <Image src="../../images/4.jpg" /> },
-  { image: <Image src="../../images/5.jpg" /> },
-  { image: <Image src="../../images/6.jpg" /> },
+  { image: <Image src="/images/1.jpg" /> },
+  { image: <Image src="/images/2.jpg" /> },
+  { image: <Image src="/images/3.jpg" /> },
+  { image: <Image src="/images/4.jpg" /> },
+  { image: <Image src="/images/5.jpg" /> },
+  { image: <Image src="/images/6.jpg" /> },
 ];
 
 export const portfolioSecond = [
-  { image: <Image src="../../images/8.jpg" /> },
-  { image: <Image src="../../images/9.jpg" /> },
-  { image: <Image src="../../images/10.jpg" /> },
-  { image: <Image src="../../images/11.jpg" /> },
-  { image: <Image src="../../images/12.jpg" /> },
+  { image: <Image src="/images/8.jpg" /> },
+  { image: <Image src="/images/9.jpg" /> },
+  { image: <Image src="/images/10.jpg" /> },
+  { image: <Image src="/images/11.jpg" /> },
+  { image: <Image src="/images/12.jpg" /> },
 ];
