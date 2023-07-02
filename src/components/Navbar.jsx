@@ -9,7 +9,7 @@ function Navbar() {
             <Image src="../../images/logo.png" h={"30px"} w={"300px"} />
           </Box>
 
-          <Flex gap={2} align={"center"}>
+          <Flex display={{ base: "none", md: "flex" }} gap={2} align={"center"}>
             <Box>
               <Text
                 color={"#414157"}

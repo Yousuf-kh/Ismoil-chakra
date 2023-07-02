@@ -12,22 +12,26 @@ const Hero = () => {
   return (
     <Box
       w={"full"}
-      h={"500px"}
-      backgroundImage={"url(../../images/bg.png)"}
+      h={{ base: "620px", md: "500px" }}
+      backgroundImage={{ base: "", md: "url(../../images/bg.png)" }}
       backgroundRepeat={"no-repeat"}
       backgroundColor={"#000"}
       backgroundSize={"cover"}
       backgroundPosition={"center center"}
     >
       <Container maxW={"container.lg"}>
-        <Box pt={"100px"}>
-          <Flex justify={"space-between"} align={"center"} w={"500px"}>
+        <Box pt={{ base: "10px", md: "100px" }}>
+          <Flex
+            justify={"space-between"}
+            align={"center"}
+            w={{ base: "full", md: "500px" }}
+          >
             <Text
               p={2}
               bg={"#fff"}
               opacity={".7"}
               fontWeight={"300"}
-              fontSize={"24px"}
+              fontSize={{ base: "20px", md: "24px" }}
               lineHeight={"110%"}
               letterSpacing={".03em"}
               textTransform={"uppercase"}
@@ -58,7 +62,7 @@ const Hero = () => {
           </Flex>
           <Heading
             fontWeight={"700"}
-            fontSize={"80px"}
+            fontSize={{ base: "40px", md: "80px" }}
             letterSpacing={".02em"}
             color={"#fff"}
           >
@@ -66,18 +70,18 @@ const Hero = () => {
           </Heading>
           <Heading
             fontWeight={"300"}
-            fontSize={"40px"}
+            fontSize={{ base: "20px", md: "40px" }}
             letterSpacing={"0.3em"}
             textTransform={"uppercase"}
             color={"#FFFFFF"}
           >
             Sohasiga Kirish
           </Heading>
-          <Flex mt={5} gap={3} align={"center"}>
+          <Flex pt={{ base: 500, md: 5 }} gap={3} align={"center"}>
             <Image src="../../images/vector.png" />
             <Box>
               <Text
-                fontWeight={"3000"}
+                fontWeight={"300"}
                 fontSize={"24px"}
                 lineHeight={"110%"}
                 letterSpacing={"0.03em"}
@@ -90,8 +94,12 @@ const Hero = () => {
           </Flex>
         </Box>
 
-        <Box mt={"150px"}>
-          <Flex align={"flex-end"} justify={"space-between"}>
+        <Box mt={{ base: "40px", md: "150px" }}>
+          <Flex
+            align={{ base: "flex-start", md: "flex-end" }}
+            justify={"space-between"}
+            flexDirection={{ base: "column", md: "row" }}
+          >
             <Box>
               <Heading
                 color={"#63CDF6"}
@@ -102,7 +110,7 @@ const Hero = () => {
               >
                 3 kunlik Master-Klassda siz:
               </Heading>
-              <Flex align={"center"} gap={2} mb={2}>
+              <Flex align={"center"} gap={2} mb={5}>
                 <Image src="../../images/pocket.png" />
                 <Text
                   fontSize={"24px"}
@@ -113,7 +121,7 @@ const Hero = () => {
                   Grafik dizayn qanday sohaligini tushunib olasiz;
                 </Text>
               </Flex>
-              <Flex align={"center"} gap={2} mb={2}>
+              <Flex align={"center"} gap={2} mb={5}>
                 <Image src="../../images/pocket.png" />
                 <Text
                   fontSize={"24px"}
@@ -124,7 +132,7 @@ const Hero = () => {
                   Fotoshopda ilk ishlaringizni qila olasiz;
                 </Text>
               </Flex>
-              <Flex align={"center"} gap={2} mb={2}>
+              <Flex align={"center"} gap={2} mb={5}>
                 <Image src="../../images/pocket.png" />
                 <Text
                   fontSize={"24px"}

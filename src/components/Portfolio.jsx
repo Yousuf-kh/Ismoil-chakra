@@ -22,7 +22,9 @@ const Portfolio = () => {
         responsive={responsive}
         infinite={true}
       >
-        {portfolioFirst.map((c) => c.image)}
+        {portfolioFirst.map((c, i) => (
+          <Box key={i}>{c.image}</Box>
+        ))}
       </Carousel>
       <Carousel
         autoPlay={true}
@@ -31,7 +33,9 @@ const Portfolio = () => {
         responsive={responsive}
         infinite={true}
       >
-        {portfolioSecond.map((c) => c.image)}
+        {portfolioSecond.map((c, i) => (
+          <Box key={i}>{c.image}</Box>
+        ))}
       </Carousel>
     </Box>
   );
