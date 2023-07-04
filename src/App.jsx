@@ -16,6 +16,7 @@ function App() {
       <Darslar />
       <Master />
       <Portrfolio />
+      <Navbar />
     </>
   );
 }

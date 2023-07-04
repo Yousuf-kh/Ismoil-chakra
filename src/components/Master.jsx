@@ -13,7 +13,7 @@ import { lesson } from "../helpers/const";
 
 const Master = () => {
   return (
-    <Box bg={"#000"} pt={"100px"}>
+    <Box bg={"#000"} pt={{ base: "400px", md: "100px" }}>
       <Container maxW={"container.lg"}>
         <Flex mb={5} gap={2} align={"center"}>
           <Image src="/images/u_presentation-check.png" />
@@ -24,7 +24,7 @@ const Master = () => {
         <Box>
           <Heading
             color={"#fff"}
-            fontSize={"40px"}
+            fontSize={{ base: "30px", md: "40px" }}
             fontWeight={"700"}
             lineHeight={"110%"}
             letterSpacing={"1.2px"}
@@ -33,7 +33,7 @@ const Master = () => {
           </Heading>
           <Heading
             color={"#fff"}
-            fontSize={"40px"}
+            fontSize={{ base: "30px", md: "40px" }}
             fontWeight={"300"}
             lineHeight={"110%"}
             letterSpacing={"1.2px"}
@@ -42,10 +42,10 @@ const Master = () => {
           </Heading>
         </Box>
         <Grid
-          templateColumns="repeat(3, 1fr)"
+          templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
           gap={10}
           mt={20}
-          templateRows={"170px 170px"}
+          templateRows={{ base: "", md: "170px 170px" }}
         >
           {lesson.map((c) => (
             <Flex align={"center"} gap={5}>
@@ -61,7 +61,12 @@ const Master = () => {
               </Text>
             </Flex>
           ))}
-          <Flex align={"center"} justify={"center"} flexDirection={"column"}>
+          <Flex
+            align={"center"}
+            justify={{ base: "flex-start", md: "center" }}
+            pb={{ base: 5, md: 0 }}
+            flexDirection={"column"}
+          >
             <Text color={"#45CCFF"} fontSize={"20px"} fontWeight={"700"}>
               <span
                 style={{

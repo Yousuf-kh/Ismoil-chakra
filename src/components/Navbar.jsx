@@ -10,7 +10,7 @@ function Navbar() {
           </Box>
 
           <Flex gap={2} align={"center"}>
-            <Box>
+            <Box display={{ base: "none", md: "block" }}>
               <Text
                 color={"#414157"}
                 fontWeight={"400"}

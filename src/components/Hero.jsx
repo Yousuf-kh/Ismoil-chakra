@@ -13,15 +13,19 @@ const Hero = () => {
     <Box
       w={"full"}
       h={"500px"}
-      backgroundImage={"url(/images/bg.png)"}
+      backgroundImage={{ base: "", md: "url(/images/bg.png)" }}
       backgroundRepeat={"no-repeat"}
-      backgroundColor={"#000"}
+      backgroundColor={"#111"}
       backgroundSize={"cover"}
       backgroundPosition={"center center"}
     >
       <Container maxW={"container.lg"}>
-        <Box pt={"100px"}>
-          <Flex justify={"space-between"} align={"center"} w={"500px"}>
+        <Box pt={{ base: 5, md: "100px" }}>
+          <Flex
+            justify={"space-between"}
+            align={"center"}
+            w={{ base: "full", md: "500px" }}
+          >
             <Text
               p={2}
               bg={"#fff"}
@@ -58,7 +62,7 @@ const Hero = () => {
           </Flex>
           <Heading
             fontWeight={"700"}
-            fontSize={"80px"}
+            fontSize={{ base: "40px", md: "80px" }}
             letterSpacing={".02em"}
             color={"#fff"}
           >
@@ -66,7 +70,7 @@ const Hero = () => {
           </Heading>
           <Heading
             fontWeight={"300"}
-            fontSize={"40px"}
+            fontSize={{ base: "30px", md: "40px" }}
             letterSpacing={"0.3em"}
             textTransform={"uppercase"}
             color={"#FFFFFF"}
@@ -74,7 +78,7 @@ const Hero = () => {
             Sohasiga Kirish
           </Heading>
           <Flex mt={5} gap={3} align={"center"}>
-            <Image src="/images/vector.png" />
+            <Image src="/images/Vector.png" />
             <Box>
               <Text
                 fontWeight={"3000"}
@@ -90,8 +94,12 @@ const Hero = () => {
           </Flex>
         </Box>
 
-        <Box mt={"150px"}>
-          <Flex align={"flex-end"} justify={"space-between"}>
+        <Box mt={{ base: "300px", md: "150px" }}>
+          <Flex
+            align={{ base: "flex-start", md: "flex-end" }}
+            flexDir={{ base: "column", md: "row" }}
+            justify={"space-between"}
+          >
             <Box>
               <Heading
                 color={"#63CDF6"}

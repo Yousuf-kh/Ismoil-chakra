@@ -11,7 +11,7 @@ import { about } from "../helpers/const";
 
 const About = () => {
   return (
-    <Box bg={"#000"} w={"full"} h={"335px"} pt={"250px"}>
+    <Box bg={"#000"} w={"full"} h={"335px"} pt={{ base: "350px", md: "250px" }}>
       <Container maxW={"container.lg"}>
         <Flex gap={2} align={"center"} mb={5}>
           <Image src="/images/receipt.png" />
@@ -20,7 +20,7 @@ const About = () => {
           <Box w={"5px"} h={"2px"} bg={"#fff"}></Box>
         </Flex>
         <Heading
-          fontSize={"40px"}
+          fontSize={{ base: "30px", md: "40px" }}
           fontWeight={"300"}
           lineHeight={"44px"}
           letterSpacing={"0.03em"}
@@ -30,7 +30,7 @@ const About = () => {
           ISMOIL MAHMUDJONOV
         </Heading>
         <Heading
-          fontSize={"40px"}
+          fontSize={{ base: "30px", md: "40px" }}
           fontWeight={"700"}
           lineHeight={"44px"}
           letterSpacing={"0.03em"}
@@ -41,11 +41,11 @@ const About = () => {
         </Heading>
 
         <Box mt={"50px"}>
-          <Flex gap={5}>
+          <Flex flexDir={{ base: "column", md: "row" }} gap={5}>
             {about.map((c) => {
               return (
                 <Box
-                  width={"270px"}
+                  width={{ base: "full", md: "270px" }}
                   height={"133px"}
                   borderRadius={"4px"}
                   bg={"#fff"}
